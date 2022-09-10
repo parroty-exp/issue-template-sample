@@ -32,6 +32,5 @@ body:
      attributes:
         label: Relevant log output
         description: Run in debug mode for the most verbose logs. Please feel free to attach a screenshot of the logs
-        render: shell
      validations:
         required: true
