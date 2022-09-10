@@ -4,7 +4,7 @@ title: 'Bug: '
 labels: ['bug', 'triage']
 assignees: '@Azure/aks-atlanta'
 body:
-   - type: input
+   - type: textarea
      id: What-happened
      attributes:
         label: What happened?
@@ -27,7 +27,7 @@ body:
         placeholder: Mention the runner info (self-hosted, operating system)
      validations:
         required: true
-   - type: input
+   - type: textarea
      id: Logs
      attributes:
         label: Relevant log output
